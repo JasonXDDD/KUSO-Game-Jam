@@ -20,12 +20,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: staycontrol
+  - m_Name: stayControl
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -76,7 +76,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: walkControlX
     m_Mirror: 0
-  m_BlendParameter: staycontrol
+  m_BlendParameter: stayControl
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -120,7 +120,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: walkControlX
     m_Mirror: 0
-  m_BlendParameter: staycontrol
+  m_BlendParameter: stayControl
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -150,7 +150,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: walkControlX
     m_Mirror: 0
-  m_BlendParameter: staycontrol
+  m_BlendParameter: stayControl
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -202,7 +202,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 206391527569364302}
-    m_Threshold: 0.8392857
+    m_Threshold: 0.8258928
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -210,7 +210,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 206066865980792084}
-    m_Threshold: 0.89285713
+    m_Threshold: 0.8660714
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -218,7 +218,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 206264908242980534}
-    m_Threshold: 0.94642854
+    m_Threshold: 0.90625
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -226,7 +226,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 067c27838fa217345975fb94eb07be63, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.94642854
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -262,7 +262,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: walkControlX
     m_Mirror: 0
-  m_BlendParameter: staycontrol
+  m_BlendParameter: stayControl
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
