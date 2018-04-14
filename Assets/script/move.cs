@@ -16,7 +16,6 @@ public class move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
     player_anim.SetFloat ("stayControl", 0);
     
 		if(Input.GetKey(KeyCode.UpArrow)) {
