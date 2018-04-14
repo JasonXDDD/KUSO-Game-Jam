@@ -20,7 +20,7 @@ public class move : MonoBehaviour {
     player_anim.SetFloat ("stayControl", 0);
     
 		if(Input.GetKey(KeyCode.UpArrow)) {
-			player.velocity = new Vector2(0, 5);
+			player.velocity = new Vector2(0, 3);
       // transform.Translate(new Vector2(0, 0.1f));
 			player_anim.SetFloat ("walkControlX", 0);
       player_anim.SetFloat ("walkControlY", 1);
@@ -28,21 +28,21 @@ public class move : MonoBehaviour {
 		}
 			
 		if(Input.GetKey(KeyCode.DownArrow)){
-			player.velocity = new Vector2(0, -5);
+			player.velocity = new Vector2(0, -3);
       // transform.Translate(new Vector2(0, -0.1f));
 			player_anim.SetFloat ("walkControlX", 0);
       player_anim.SetFloat ("walkControlY", -1);
       player_anim.SetFloat ("stayControl", 1);
 		}
 		if(Input.GetKey(KeyCode.LeftArrow)){
-			player.velocity = new Vector2(-5, 0);
+			player.velocity = new Vector2(-3, 0);
       // transform.Translate(new Vector2(-0.1f, 0));
       player_anim.SetFloat ("walkControlX", -1);
       player_anim.SetFloat ("walkControlY", 0);
       player_anim.SetFloat ("stayControl", 1);
 		}
 		if(Input.GetKey(KeyCode.RightArrow)){
-			player.velocity = new Vector2(5, 0);
+			player.velocity = new Vector2(3, 0);
       // transform.Translate(new Vector2(0.1f, 0));
       player_anim.SetFloat ("walkControlX", 1);
       player_anim.SetFloat ("walkControlY", 0);
